@@ -16,6 +16,8 @@ Locale files are located in the `src/locales` directory.
 
 To add a new locale you need to add new language file to the `src/locales` directory and add an option to the `src/components/LocaleSwitcher.vue`.
 
+To use your own Crowdin project, you should upload `src/locales/en.json` file to the Crowdin project and then replace `src/locales/ach.json` (in the repository) with your In-Context language strings.
+
 ## Additional links
 
 - [Knowledge base](https://support.crowdin.com/in-context-localization/)
