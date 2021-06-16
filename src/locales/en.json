@@ -1,0 +1,21 @@
+{
+  "welcomeMessage": "Welcome to Crowdin In-Context example",
+  "description": {
+    "part1": "Crowdin In-Context tool allows to translate texts directly within the actual web application. In such a way, the best translation quality is maintained.",
+    "part2": "In-Context localization is tied up with the actual project created in Crowdin, under which translatable files are stored.",
+    "part3": "This tool makes all the texts in the web app editable. Moreover, the translation process is real-time visible. Even the dynamic part of the application and strings that contain placeholders can be translated this way.",
+    "part4": "Crowdin In-Context works with the help of one line Javascript snippet and the pseudo-language package. It creates the pseudo-language package based on the localization files uploaded to your project, which later will be integrated to your application as an extra-localization language.",
+    "part5": "There are two common approaches to integrate Crowdin In-Context with your application:"
+  },
+  "headings": {
+    "technicalOverview": "Technical Overview",
+    "integration": "Integration"
+  },
+  "integration": {
+    "way1": "Staging or translation environment",
+    "way2": "Production environment"
+  },
+  "documentation": "Knowledge base",
+  "crowdinDemo": "Crowdin demo",
+  "essentialLinks": "Essential Links"
+}
