@@ -10,13 +10,16 @@ This project is aimed to showcase how Crowdin In-Context can be integrated into 
 
 By default, App is running on an English locale. For translating in context, please select the "In-Context" option at the bottom of the page.
 
-In-Context configuration is located in the `public/index.html` file. You can change the project here or add other options.
-
-Locale files are located in the `src/locales` directory.
+To use your own Crowdin project, you need:
+- fork this repo
+- setup GitHub Page for your project and point it to the `gh-pages` branch (*Settings > Pages*)
+- go to the *Actions* tab and enable workflows
+- change the project in the In-Context configuration (`public/index.html` file)
+- upload `src/locales/en.json` file to the Crowdin project
+- replace `src/locales/ach.json` (in the repository) with your In-Context language strings
+- wait until the GH Workflow finish and visit your page.
 
 To add a new locale you need to add new language file to the `src/locales` directory and add an option to the `src/components/LocaleSwitcher.vue`.
-
-To use your own Crowdin project, you should upload `src/locales/en.json` file to the Crowdin project and then replace `src/locales/ach.json` (in the repository) with your In-Context language strings.
 
 ## Additional links
 
